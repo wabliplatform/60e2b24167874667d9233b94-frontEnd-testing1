@@ -1,0 +1,3 @@
+let apiPersonApi = new TempApi.PersonApi();import TempApi from '../src/index';let person = new TempApi.Person();document.getElementById('ixmbc').onclick = (event) => {
+    event.preventDefault();
+    person['fname'] = document.querySelector("[annotationname = 'fname']").value;person['lname'] = document.querySelector("[annotationname = 'lname']").value;person['cname'] = document.querySelector("[annotationname = 'cname']").value;apiPersonApi.createperson( person, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); {   location.href= '/Home' ;}}});};window.onload = () => {};

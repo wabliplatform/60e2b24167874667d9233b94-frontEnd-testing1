@@ -13,9 +13,8 @@
 
 
 import ApiClient from './ApiClient';
-import Post from './model/Post';
-import PostPostImage from './model/PostPostImage';
-import PostApi from './api/PostApi';
+import Person from './model/Person';
+import PersonApi from './api/PersonApi';
 
 
 /**
@@ -57,22 +56,16 @@ export {
     ApiClient,
 
     /**
-     * The Post model constructor.
-     * @property {module:model/Post}
+     * The Person model constructor.
+     * @property {module:model/Person}
      */
-    Post,
+    Person,
 
     /**
-     * The PostPostImage model constructor.
-     * @property {module:model/PostPostImage}
-     */
-    PostPostImage,
-
-    /**
-    * The PostApi service constructor.
-    * @property {module:api/PostApi}
+    * The PersonApi service constructor.
+    * @property {module:api/PersonApi}
     */
-    PostApi
+    PersonApi
 };
 
 export default {
@@ -83,20 +76,14 @@ export default {
     ApiClient,
 
     /**
-     * The Post model constructor.
-     * @property {module:model/Post}
+     * The Person model constructor.
+     * @property {module:model/Person}
      */
-    Post,
+    Person,
 
     /**
-     * The PostPostImage model constructor.
-     * @property {module:model/PostPostImage}
-     */
-    PostPostImage,
-
-    /**
-    * The PostApi service constructor.
-    * @property {module:api/PostApi}
+    * The PersonApi service constructor.
+    * @property {module:api/PersonApi}
     */
-    PostApi
+    PersonApi
 };
